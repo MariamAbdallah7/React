@@ -1,183 +1,82 @@
-.customcard{
-    width: 18rem ;
-    border:1px solid #ccc;
-    margin: 15px;
-    border-radius:15px;
-    padding:15px 10px;
-}
-.img{
-    border-radius:10px;
-    height:120px;
-     width:150px;
-     padding:10px
-}
-h2{
-    
-    font-size:18px;
-    margin-top:15px;
-}
-.t{
-    font-size:15px
-}
-.btn{
-    background:none;
-    border:1px solid #ccc;
-    padding:10px 26px;
-    font-size:16px;
-    font-weight:500;
-    border-radius:10px;
-    /* padding-left: 45%; */
-    position: absolute;
- top: 4px;
- left: 4px;
- background-color: rgb(77, 135, 77);
- cursor: pointer;
+h2 {
+  font-size: 18px;
+  margin-top: 15px;
 }
 
-/*  */
+.btn {
+  background: none;
+  border: 1px solid #ccc;
+  padding: 10px 26px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 10px;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  background-color: rgb(77, 135, 77);
+  cursor: pointer;
+}
 
+body {
+  margin-top: 50px;
+  background: #eee;
+}
 
-body{margin-top:50px;
-    background:#eee;
-    }
-    
-    /*panel*/
-    .panel {
-        border: none;
-        box-shadow: none;
-        background-color: white;
-        height: 50%;
-    }
-    
-    .panel-heading {
-        border-color:#eff2f7 ;
-        font-size: 16px;
-        font-weight: 300;
-    }
-    
-    .panel-title {
-        color: #2A3542;
-        font-size: 14px;
-        font-weight: 400;
-        margin-bottom: 0;
-        margin-top: 0;
-        font-family: 'Open Sans', sans-serif;
-    }
-    
-    /*product list*/
-    
-    .prod-cat li a{
-        border-bottom: 1px dashed #d9d9d9;
-    }
-    
-    .prod-cat li a {
-        color: #3b3b3b;
-    }
-    
-    .prod-cat li ul {
-        margin-left: 30px;
-    }
-    
-    .prod-cat li ul li a{
-        border-bottom:none;
-    }
-    .prod-cat li ul li a:hover,.prod-cat li ul li a:focus, .prod-cat li ul li.active a , .prod-cat li a:hover,.prod-cat li a:focus, .prod-cat li a.active{
-        background: none;
-        color: #ff7261;
-    }
-    
-    .pro-lab{
-        margin-right: 20px;
-        font-weight: normal;
-    }
-    
-    .pro-sort {
-        padding-right: 20px;
-        float: left;
-    }
-    
-    .pro-page-list {
-        margin: 5px 0 0 0;
-    }
-    
-    .product-list img{
-        width: 100%;
-        border-radius: 4px 4px 0 0;
-        -webkit-border-radius: 4px 4px 0 0;
-    }
-    
-    .product-list .pro-img-box {
-        position: relative;
-    }
-    
-    
-    .pro-title {
-        color: #5A5A5A;
-        display: inline-block;
-        margin-top: 20px;
-        font-size: 16px;
-    }
-    
-    
-    
-    .proimgdetails {
-        margin-left: -15px;
-    }
-    
-    .proimgdetails img {
-        width: 600px;
-        height: 600px;
-        padding-left: 20px;
-        border-radius: 50%;
-    }
-    
-    .prodtitle {
-        font-size: 16px;
-        margin-top: -562px;
-        padding-left: 45%;
-        
-    }
-    .des{
-        padding-left: 45%;
-    }
-    
-    .product_meta {
-        border-top: 1px solid #eee;
-        border-bottom: 1px solid #eee;
-        padding: 10px 0;
-        margin: 15px 0;
-        padding-left: 45%;
-    }
-    .m_bot15{
-        padding-left: 45%;
-    }
-    
-    .product_meta span {
-        display: block;
-        margin-bottom: 10px;
-    }
-    .product_meta a, .pro-price{
-        color:#fc5959 ;
-    }
-    
-    .pro-price, .amount-old {
-        font-size: 18px;
-        padding: 0 10px;
-    }
-    
-    .amount_old {
-        color:#fc5959 
-    }
-    
-    .quantity {
-        width: 120px;
-    }
+/*panel*/
+.panel {
+  border: none;
+  box-shadow: none;
+  background-color: white;
+  height: 50%;
+}
 
-    .spiner{
-        display:flex;
-        justify-content:center;
-        align-items:center;
-        height:100vh
-    }
-    
-    
+.proimgdetails img {
+  width: 600px;
+  height: 600px;
+  padding-left: 20px;
+  border-radius: 50%;
+}
+
+.prodtitle {
+  font-size: 16px;
+  margin-top: -562px;
+  padding-left: 45%;
+}
+.des {
+  padding-left: 45%;
+}
+
+.product_meta {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+  margin: 15px 0;
+  padding-left: 45%;
+}
+.m_bot15 {
+  padding-left: 45%;
+}
+
+.product_meta span {
+  display: block;
+  margin-bottom: 10px;
+}
+.product_meta a,
+.pro-price {
+  color: #fc5959;
+}
+
+.amount_old {
+  color: #fc5959;
+}
+
+.quantity {
+  width: 120px;
+}
+
+.spiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

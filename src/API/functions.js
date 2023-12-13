@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const url = 'https://fakestoreapi.com/products';
+const url="https://fakestoreapi.com/products"
 
 export const fetchData = async () => {
     const response = await fetch(url);

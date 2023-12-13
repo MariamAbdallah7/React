@@ -7,10 +7,8 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import { fetchData } from "../../API/functions";
 
-import BeatLoader from 'react-spinners/BeatLoader';
 import Spinner from "../../components/Spinner";
 
-// import Spinner from "../../components/Spinner";
 
 function All() {
   const navigate = useNavigate();
@@ -33,8 +31,12 @@ function All() {
         parseFloat(product.price) <= priceRange.max
     );
   //handle loading and errors
-  if (isLoading) return <div className={styles.spiner} ><Spinner/></div>;
-  // if (isLoading) return <div><BeatLoader color="#36d7b7" /></div>;
+  if (isLoading)
+    return (
+      <div className={styles.spiner}>
+        <Spinner />
+      </div>
+    );
 
   if (error) return <div>Error: {error.message}</div>;
 
@@ -76,7 +78,7 @@ function All() {
                   margin: "15px",
                   borderRadius: "15px",
                   padding: "15px 10px",
-                  position:'relative'
+                  position: "relative",
                 }}
               >
                 <Card.Img
