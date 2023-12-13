@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* .card {
+  display:flex;
+  font-family: Arial, Roboto, sans-serif;
+ }
+ .container{
+  display: inline;
+ } */
+ /* .row:hover{
+  background-color: SteelBlue;
+ } */
+ /* .row{
+  box-shadow: 1px solid gray;
+ } */
+ /* @media (max-width: 767.98px) {
+  .border-sm-start-none {
+    border-left: none !important;
+  }
+
+  
+} */
+
+/* #btn{
+  cursor: pointer;
+} */
